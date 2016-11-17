@@ -1,9 +1,9 @@
 ## Below function makeCacheMatrix does the following:
-## store a martix and a cached value of the inverse of the matrix and has the following functions:
-## setMatrix      set the value of a matrix
-## getMatrix      get the value of a matrix
-## cacheInverse   get the cahced value (inverse of the matrix)
-## getInverse     get the cahced value (inverse of the matrix)
+# store a martix and a cached value of the inverse of the matrix and has the following functions:
+# setMatrix      set the value of a matrix
+# getMatrix      get the value of a matrix
+# cacheInverse   get the cahced value (inverse of the matrix)
+# getInverse     get the cahced value (inverse of the matrix)
 
 makeCacheMatrix <- function(x = matrix()) {
  inv <- NULL                                    # assigning Null to inverse value
@@ -17,8 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
 
-## makeCacheMatrix
-## The below function calculates the inverse of a special matrix created with makeCacheMatrix
+# makeCacheMatrix
+# The below function calculates the inverse of a special matrix created with makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
         # Return a matrix that is the inverse of 'x'
